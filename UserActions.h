@@ -12,45 +12,31 @@
 void printLargeString(const char string[]);
 
 void userAction1(){
-
-  // (All OS) This functions prints a large string of text to the active window.
-  printLargeString("This is an example of printing long pieces of text.");
-  delay(USER_ACTION_DELAY);
-  bleKeyboard.write(KEY_RETURN);
-  printLargeString("After KEY_RETURN it will print on a new line.");
-  
+  printLargeString("Rubbeldiekaty01");
 }
 
 void userAction2(){
-  
+  printLargeString("EXPERT");
+  delay(USER_ACTION_DELAY);
+  bleKeyboard.write(KEY_TAB);
+  delay(USER_ACTION_DELAY);
+  printLargeString("LAETUS");
 }
 
 void userAction3(){
-
-  // (Windows Only) This function rickroll's you.
-
-  bleKeyboard.press(KEY_LEFT_GUI);
+  printLargeString("wt/user"); // "-" needs to be printed as this
   delay(USER_ACTION_DELAY);
-  bleKeyboard.print("r");
-  bleKeyboard.releaseAll();
-  delay(500);
-  printLargeString("https://youtu.be/dQw4w9WgXcQ");
-  bleKeyboard.write(KEY_RETURN);
-  
+  bleKeyboard.write(KEY_TAB);
+  delay(USER_ACTION_DELAY);
+  printLargeString("wt");
 }
 
 void userAction4(){
-
-  // (Mac Only) This function rickroll's you.
-
-  bleKeyboard.press(KEY_LEFT_GUI);
+  printLargeString("laetusadmin");
   delay(USER_ACTION_DELAY);
-  bleKeyboard.print(" ");
-  bleKeyboard.releaseAll();
+  bleKeyboard.write(KEY_TAB);
   delay(USER_ACTION_DELAY);
-  printLargeString("https://youtu.be/dQw4w9WgXcQ");
-  bleKeyboard.write(KEY_RETURN);
-  
+  printLargeString("la");
 }
 
 void userAction5(){
@@ -93,9 +79,11 @@ void userAction6(){
 }
 
 void userAction7(){
-
-  // Nothing yet, create your own!
-  
+  printLargeString("cukmuq");
+  bleKeyboard.print("/"); // "-" needs to be printed as this
+  printLargeString("8fiVpu");
+  bleKeyboard.print("/");
+  printLargeString("xijxzp");
 }
 
 
@@ -109,7 +97,7 @@ void printLargeString(const char string[]){
   for(int i=0; i < strlen(string); i++ ) {
     char c = string[i];
     bleKeyboard.print(c);
-    delay(10); // 10ms is on most systems enough to not miss a character
+    delay(15); // 10ms is on most systems enough to not miss a character
   }
   
 }

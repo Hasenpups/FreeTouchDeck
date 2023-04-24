@@ -40,7 +40,7 @@
 
 // ------- Uncomment the next line if you use capacitive touch -------
 // (The ESP32 TOUCHDOWN and the ESP32 TouchDown S3 uses this!)
-//#define USECAPTOUCH
+#define USECAPTOUCH
 
 //#define ESP32TouchDownS3
 
@@ -49,8 +49,8 @@
 //#define USEUSBHID
 
 // ------- Uncomment and populate the following if your cap touch uses custom i2c pins -------
-//#define CUSTOM_TOUCH_SDA 17
-//#define CUSTOM_TOUCH_SCL 18
+#define CUSTOM_TOUCH_SDA 18
+#define CUSTOM_TOUCH_SCL 19
 
 // ------- Uncomment the define below if you want to use SLEEP and wake up on touch -------
 // The pin where the IRQ from the touch screen is connected uses ESP-style GPIO_NUM_* instead of just pinnumber

@@ -1,9 +1,9 @@
 {
   "logo0": "mute.bmp",
-  "logo1": "volumedown.bmp",
-  "logo2": "volumeup.bmp",
+  "logo1": "volumelow.bmp",
+  "logo2": "volumehigh.bmp",
   "logo3": "play.bmp",
-  "logo4": "stop.bmp",
+  "logo4": "pause.bmp",
   "button0":{
     "latch": true,
     "latchlogo": "",

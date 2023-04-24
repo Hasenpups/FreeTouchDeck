@@ -1,32 +1,32 @@
 {
-  "logo0": "question.bmp",
-  "logo1": "question.bmp",
-  "logo2": "question.bmp",
-  "logo3": "question.bmp",
+  "logo0": "snip.bmp",
+  "logo1": "explorer.bmp",
+  "logo2": "lock.bmp",
+  "logo3": "outlook.bmp",
   "logo4": "question.bmp",
   "button0":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "5", "4" ],
+    "valuearray": [ "8", "2", "s" ] 
   },
   "button1":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "4", "0"],
+    "valuearray": [ "8", "e", "0" ]  
   },
   "button2":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "4", "0" ],
+    "valuearray": [ "8", "l", "0" ] 
   },
   "button3":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0"],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "7", "0" ],
+    "valuearray": [ "8", "3", "0" ] 
   },
   "button4":{
     "latch": false,

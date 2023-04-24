@@ -1,37 +1,37 @@
 {
-  "logo0": "question.bmp",
-  "logo1": "question.bmp",
-  "logo2": "question.bmp",
-  "logo3": "question.bmp",
-  "logo4": "question.bmp",
+  "logo0": "teams_mute.bmp",
+  "logo1": "teams_videoon.bmp",
+  "logo2": "teams_share.bmp",
+  "logo3": "teams_raisehand.bmp",
+  "logo4": "teams_off.bmp",
   "button0":{
     "latch": false,
-    "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "latchlogo": "teams_unmute.bmp",
+    "actionarray": [ "5", "5", "4" ],
+    "valuearray": [ "1", "6", "m" ] 
   },
   "button1":{
     "latch": false,
-    "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "latchlogo": "teams_videooff.bmp",
+    "actionarray": [ "5", "5", "4" ],
+    "valuearray": [ "1", "6", "o" ] 
   },
   "button2":{
     "latch": false,
-    "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "latchlogo": "teams_closeshare.bmp",
+    "actionarray": [ "5", "5", "4" ],
+    "valuearray": [ "1", "6", "e" ] 
   },
   "button3":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0"],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "5", "4"],
+    "valuearray": [ "1", "6", "k" ] 
   },
   "button4":{
     "latch": false,
     "latchlogo": "",
-    "actionarray": [ "0", "0", "0" ],
-    "valuearray": [ "0", "0", "0" ] 
+    "actionarray": [ "5", "5", "4" ],
+    "valuearray": [ "1", "6", "h" ] 
   }
 }
